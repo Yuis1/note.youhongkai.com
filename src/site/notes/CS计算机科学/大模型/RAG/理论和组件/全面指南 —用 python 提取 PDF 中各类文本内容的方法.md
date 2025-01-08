@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/CS计算机科学/大模型/RAG/理论和组件/全面指南 —用 python 提取 PDF 中各类文本内容的方法/","noteIcon":"","created":"2024-08-28T17:27:38.000+08:00","updated":"2024-11-21T14:59:02.000+08:00"}
+{"dg-publish":true,"permalink":"/CS计算机科学/大模型/RAG/理论和组件/全面指南 —用 python 提取 PDF 中各类文本内容的方法/","noteIcon":"","created":"2024-11-21T14:57:24.000+08:00","updated":"2025-01-06T17:47:56.000+08:00"}
 ---
 
 

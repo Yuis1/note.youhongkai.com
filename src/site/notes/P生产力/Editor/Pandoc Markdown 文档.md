@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/P生产力/Editor/Pandoc Markdown 文档/","noteIcon":"","created":"2024-08-28T17:26:35.000+08:00","updated":"2024-04-24T00:47:10.000+08:00"}
+{"dg-publish":true,"permalink":"/P生产力/Editor/Pandoc Markdown 文档/","noteIcon":"","created":"2024-04-20T15:32:29.000+08:00","updated":"2024-04-24T00:47:10.619+08:00"}
 ---
 
 > 本文由 [简悦 SimpRead](http://ksria.com/simpread/) 转码， 原文地址 [cnewbie.github.io](https://cnewbie.github.io/posts/markdown-pandoc/)

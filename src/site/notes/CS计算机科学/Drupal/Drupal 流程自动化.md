@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/CS计算机科学/Drupal/Drupal 流程自动化/","tags":["Drupal"],"noteIcon":"","created":"2024-08-28T17:27:38.000+08:00","updated":"2024-03-20T22:58:52.000+08:00"}
+{"dg-publish":true,"permalink":"/CS计算机科学/Drupal/Drupal 流程自动化/","tags":["Drupal"],"noteIcon":"","created":"2024-01-21T09:45:21.285+08:00","updated":"2024-03-20T22:58:52.991+08:00"}
 ---
 
 # Drupal 流程自动化

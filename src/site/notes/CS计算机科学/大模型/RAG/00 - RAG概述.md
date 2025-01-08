@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/CS计算机科学/大模型/RAG/00 - RAG概述/","noteIcon":"","created":"2024-08-28T17:27:38.000+08:00","updated":"2024-11-21T15:02:03.062+08:00"}
+{"dg-publish":true,"permalink":"/CS计算机科学/大模型/RAG/00 - RAG概述/","noteIcon":"","created":"2024-04-12T13:13:47.871+08:00","updated":"2024-11-21T15:02:03.000+08:00"}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/💡随想/Stephen Wolfram - A New Kind of Science 总结/","noteIcon":"","created":"2024-08-28T17:26:35.000+08:00","updated":"2024-04-23T21:54:40.000+08:00"}
+{"dg-publish":true,"permalink":"/💡随想/Stephen Wolfram - A New Kind of Science 总结/","noteIcon":"","created":"2024-04-23T19:56:49.000+08:00","updated":"2024-04-23T21:54:40.438+08:00"}
 ---
 
 

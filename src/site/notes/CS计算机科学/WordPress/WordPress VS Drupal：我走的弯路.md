@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/CS计算机科学/WordPress/WordPress VS Drupal：我走的弯路/","noteIcon":"","created":"2024-08-28T17:25:49.000+08:00","updated":"2024-07-09T02:20:25.000+08:00"}
+{"dg-publish":true,"permalink":"/CS计算机科学/WordPress/WordPress VS Drupal：我走的弯路/","noteIcon":"","created":"2024-07-09T02:19:23.000+08:00","updated":"2024-07-09T02:20:25.000+08:00"}
 ---
 
 

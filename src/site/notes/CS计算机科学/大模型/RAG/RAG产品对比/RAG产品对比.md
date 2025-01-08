@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/CS计算机科学/大模型/RAG/RAG产品对比/RAG产品对比/","noteIcon":"","created":"2024-11-21T15:01:41.171+08:00","updated":"2024-11-21T15:03:15.000+08:00"}
+{"dg-publish":true,"permalink":"/CS计算机科学/大模型/RAG/RAG产品对比/RAG产品对比/","noteIcon":"","created":"2024-11-21T15:03:11.000+08:00","updated":"2025-01-06T17:48:48.000+08:00"}
 ---
+
 
 工业界可用的RAG产品：
 
