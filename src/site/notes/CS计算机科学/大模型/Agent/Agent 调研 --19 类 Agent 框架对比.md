@@ -1,14 +1,19 @@
 ---
-{"dg-publish":true,"permalink":"/CS计算机科学/大模型/Agent/Agent 调研 --19 类 Agent 框架对比/","noteIcon":"","created":"2024-04-12T09:57:55.648+08:00","updated":"2024-05-22T12:43:35.176+08:00"}
+{"dg-publish":true,"permalink":"/CS计算机科学/大模型/Agent/Agent 调研 --19 类 Agent 框架对比/","noteIcon":"","created":"2024-04-12T09:57:55.648+08:00","updated":"2025-01-13T16:25:10.000+08:00"}
 ---
 
 > 本文由 [简悦 SimpRead](http://ksria.com/simpread/) 转码， 原文地址 [mp.weixin.qq.com](https://mp.weixin.qq.com/s/rogMCoS1zDN0mAAC5EKhFQ)
+## 团队介绍
+
+我们是天猫技术 - 手猫智能策略 - 推荐工程团队，主要任务是为手机天猫 APP 用户提升推荐和 AI 的服务体验。我们专注于推荐和 AI 创新业务的研发，包括但不限于手机天猫的推荐引擎、推荐服务端、流量调控、智能 UI 的研发优化以及 AI 创新业务探索。结合最新的搜推技术、大语言模型和视觉模型，我们致力于为用户提供更好的推荐服务及 AI 体验，力求在不断探索和实践中为用户创造更多价值。
+
+## 什么是Agent
 
 代理（Agent）指能自主感知环境并采取行动实现目标的智能体，即 AI 作为一个人或一个组织的代表，进行某种特定行为和交易，降低一个人或组织的工作复杂程度，减少工作量和沟通成本。
 
 目前，我们在探索 Agent 的应用方向，借此机会调研学习了一下现在主流的 Agent 框架，这篇文章也是我们调研过程的记录。
 
-#### **▐** **网络热门 Agents**
+### **▐** **网络热门 Agents**
 
 截止至今日，开源的 Agent 应用可以说是百花齐放，文章也是挑选了热度和讨论度较高的 19 类 Agent，基本能覆盖主流的 Agent 框架，每个类型都做了一个简单的 summary、作为一个参考供大家学习。
 
@@ -16,7 +21,7 @@
 
 图片来源： https://github.com/e2b-dev/awesome-ai-agents
 
-#### **▐** **Agent 基础**
+### **▐** **Agent 基础**
 
 Agent 的核心决策逻辑是让 LLM 根据动态变化的环境信息选择执行具体的行动或者对结果作出判断，并影响环境，通过多轮迭代重复执行上述步骤，直到完成目标。
 
@@ -34,7 +39,7 @@ Agent 的核心决策逻辑是让 LLM 根据动态变化的环境信息选择执
 
 **![](/img/user/Z-attach/640-81.png)**
 
-#### **▐** **决策模型**
+### **▐** **决策模型**
 
 目前 Agent 主流的决策模型是 ReAct 框架，也有一些 ReAct 的变种框架，以下是两种框架的对比。
 
@@ -465,18 +470,13 @@ https://microsoft.github.io/autogen/docs/Use-Cases/agent_chat
 ![](/img/user/Z-attach/640-83.png)
 
 1.  助⼿接收到来⾃ user_proxy 的消息，其中包含任务描述。
-    
 2.  然后助⼿尝试编写 Python 代码来解决任务，并将响应发送给 user_proxy。
-    
 3.  ⼀旦 user_proxy 从助⼿那⾥收到响应，它会尝试通过征求⼈类输⼊或准备⾃动⽣成的回复来回复。如果没有提供⼈类输⼊，user_proxy 将执⾏代码并使⽤结果作为⾃动回复。
-    
 4.  然后助⼿为 user_proxy ⽣成进⼀步的响应。然后 user_proxy 可以决定是否终⽌对话。如果不是，就重复步骤 3 和 4。
-    
+
 
 **实现多 agent 沟通方式：**
-
 动态团队交流：在群聊管理器中注册一个回复功能，广播消息并指定下一个发言的的角色。
-
 有限状态机：自定义 DAG 流程图，定义 agent 间沟通的 SOP
 
 ![](/img/user/Z-attach/640-74.png)
@@ -716,8 +716,3 @@ RAG：解决语义孤立问题
 14. Building the Future of Responsible AI: A Reference Architecture for Designing Large Language Model based Agents:https://arxiv.org/abs/2311.13148
 15. Multi Agent 策略架构 基础:https://mp.weixin.qq.com/s?__biz=Mzk0MDU2OTk1Ng==&mid=2247483811&idx=1&sn=f92d1ecdb6f2ddcbc36e70e8ffe5efa2&chksm=c2dee5a8f5a96cbeaa66b8575540a416c80d66f7427f5095999f520a09717fa2906cfccddb59&scene=21#wechat_redirect
 16. 《MetaGPT 智能体开发入门》学习手册: https://deepwisdom.feishu.cn/wiki/BfS0wmk4piMXXIkHvn5czNT8nuh
-
-
-## 团队介绍
-
-我们是天猫技术 - 手猫智能策略 - 推荐工程团队，主要任务是为手机天猫 APP 用户提升推荐和 AI 的服务体验。我们专注于推荐和 AI 创新业务的研发，包括但不限于手机天猫的推荐引擎、推荐服务端、流量调控、智能 UI 的研发优化以及 AI 创新业务探索。结合最新的搜推技术、大语言模型和视觉模型，我们致力于为用户提供更好的推荐服务及 AI 体验，力求在不断探索和实践中为用户创造更多价值。
