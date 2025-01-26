@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/CS计算机科学/大模型/LLMOps/Dify Sandbox 代码执行节点/","noteIcon":"","created":"2025-01-26T12:53:00.613+08:00","updated":"2025-01-26T13:09:33.084+08:00"}
+{"dg-publish":true,"permalink":"/CS计算机科学/大模型/LLMOps/Dify Sandbox 代码执行节点/","noteIcon":"","created":"2025-01-26T12:53:00.613+08:00","updated":"2025-01-26T21:09:56.439+08:00"}
 ---
 
 
@@ -29,9 +29,6 @@ def main():
 { "result": [ "anyio==4.6.2.post1", "certifi==2024.8.30", "charset-normalizer==3.4.0", "exceptiongroup==1.2.2", "h11==0.14.0", "httpcore==1.0.6", "httpx==0.27.2", "idna==3.10", "jinja2==3.0.3", "markupsafe==3.0.1", "pip==23.0.1", "pysocks==1.7.1", "requests==2.32.3", "setuptools==65.5.1", "sniffio==1.3.1", "socksio==1.0.0", "typing-extensions==4.12.2", "urllib3==2.2.3", "wheel==0.44.0" ] }
 ```
 
-### 通过Sandbox镜像容器的配置项
-
-当前依赖包列表：  `/docker/volumes/sandbox/dependencies/python-requirements.txt`
 
 ## 引入自定义Python包
 ### 通过Sandbox镜像容器的配置项
