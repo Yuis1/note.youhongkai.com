@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/CS计算机科学/运维部署/Network/正确使用 acme.sh， 让你的网站永久免费使用 ssl 证书/","noteIcon":"","created":"2024-03-24T17:09:56.097+08:00","updated":"2024-04-27T01:21:54.000+08:00"}
+{"dg-publish":true,"permalink":"/CS计算机科学/运维部署/Network/正确使用 acme.sh， 让你的网站永久免费使用 ssl 证书/","noteIcon":"","created":"2024-03-24T17:09:56.097+08:00","updated":"2025-01-31T11:42:38.497+08:00"}
 ---
 
 > 本文由 [简悦 SimpRead](http://ksria.com/simpread/) 转码， 原文地址 [zhuanlan.zhihu.com](https://zhuanlan.zhihu.com/p/670418258)

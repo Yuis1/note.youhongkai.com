@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/CS计算机科学/大模型/Train/冷启动数据与多阶段训练：AI 的 “启蒙练习册” 与“分科特训”/","noteIcon":"","created":"2025-01-27T13:14:35.092+08:00","updated":"2025-01-29T16:27:03.233+08:00"}
+{"dg-publish":true,"permalink":"/CS计算机科学/大模型/Train/冷启动数据与多阶段训练：AI 的 “启蒙练习册” 与“分科特训”/","noteIcon":"","created":"2025-01-27T13:14:35.092+08:00","updated":"2025-01-30T00:38:21.286+08:00"}
 ---
 
 > 本文由 [简悦 SimpRead](http://ksria.com/simpread/) 转码， 原文地址 [mp.weixin.qq.com](https://mp.weixin.qq.com/s?__biz=MzA3MDE2OTQ0OA==&mid=2651918255&idx=6&sn=752ea36b72c2e50f05b79b676df89e4f&chksm=852549a8b252c0be3aa80d7854480ba6ae61a58f00cbaa5ed701cdd39588d616c8b713885f8d&cur_album_id=2921594804302790657&scene=189#wechat_redirect)
