@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/CS计算机科学/运维部署/Docker/Docker 官方源镜像拉取/","noteIcon":"","created":"2025-01-31T11:08:23.456+08:00","updated":"2025-01-31T13:23:19.908+08:00"}
+{"dg-publish":true,"permalink":"/CS计算机科学/运维部署/Docker/Docker 官方源镜像拉取/","noteIcon":"","created":"2025-01-31T11:08:23.456+08:00","updated":"2025-02-11T00:48:30.000+08:00"}
 ---
 
 
@@ -38,7 +38,7 @@
 我再补充两种方法：
 
 1. 网关透明代理：在路由器网关加代理，比较容易实现。如果路由器不支持，也可以让另一台电脑或手机挂代理后临时当一下网关。
-2. 本机Tun模式：在操作系统中创建虚拟网络接口（虚拟网卡）来实现对网络流量进行捕获和重定向的代理模式。Windows端 v2rayN 支持。
+2. 本机Tun模式：在操作系统中创建虚拟网络接口（虚拟网卡）来实现对网络流量进行捕获和重定向的代理模式。Windows端 v2rayN 支持开启，Mac端V2RayU Routing 选Global应该也可以。
 
 ### 通过 daemon.json 来配置docker pull时的代理
 
@@ -138,3 +138,40 @@ echo "Docker Desktop彻底卸载完成。"
 ```
 
 再次挂代理，docker pull ，就治好了。
+
+## Linux下通过环境变量来配置docker pull时的代理
+
+注意：由于docker通过systemd来启动，此时的环境变量要在  systemd drop-in file 里设置：
+
+```
+sudo mkdir -p /etc/systemd/system/docker.service.d
+```
+
+Create a file named `/etc/systemd/system/docker.service.d/http-proxy.conf` that adds the `HTTP_PROXY` environment variable:
+
+```systemd
+[Service]
+Environment="HTTP_PROXY=http://proxy.example.com:3128"
+```
+
+If you are behind an HTTPS proxy server, set the `HTTPS_PROXY` environment variable:
+
+```systemd
+[Service]
+Environment="HTTPS_PROXY=https://proxy.example.com:3129"
+```
+
+Multiple environment variables can be set; to set both a non-HTTPS and a HTTPs proxy;
+
+```systemd
+[Service]
+Environment="HTTP_PROXY=http://proxy.example.com:3128"
+Environment="HTTPS_PROXY=https://proxy.example.com:3129"
+```
+
+记得重新载入服务配置
+
+```
+sudo systemctl daemon-reload
+sudo systemctl restart docker
+```
