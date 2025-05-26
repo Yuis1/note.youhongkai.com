@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/CS计算机科学/大模型/Train/从零到一进行 LLM pretrain 的经验/","noteIcon":"","created":"2025-01-07T11:23:09.000+08:00","updated":"2025-01-27T13:16:14.303+08:00"}
+{"dg-publish":true,"permalink":"/CS计算机科学/大模型/Train/从零到一进行 LLM pretrain 的经验/","noteIcon":"","created":"2025-01-29T13:58:01.256+08:00","updated":"2025-01-27T13:16:14.000+08:00"}
 ---
 
 

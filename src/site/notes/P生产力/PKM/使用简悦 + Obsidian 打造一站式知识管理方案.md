@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/P生产力/PKM/使用简悦 + Obsidian 打造一站式知识管理方案/","noteIcon":"","created":"2022-03-16T02:24:35.000+08:00","updated":"2024-04-24T00:44:07.188+08:00"}
+{"dg-publish":true,"permalink":"/P生产力/PKM/使用简悦 + Obsidian 打造一站式知识管理方案/","noteIcon":"","created":"2024-06-22T22:30:23.461+08:00","updated":"2024-04-24T00:44:07.000+08:00"}
 ---
 
 > 本文由 [简悦 SimpRead](http://ksria.com/simpread/) 转码， 原文地址 [github.com](https://github.com/Kenshin/simpread/discussions/1631)

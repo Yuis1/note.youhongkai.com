@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/CS计算机科学/数据/AARRR 模型最详解/","noteIcon":"","created":"2022-06-10T10:03:52.142+08:00","updated":"2024-04-30T13:40:39.739+08:00"}
+{"dg-publish":true,"permalink":"/CS计算机科学/数据/AARRR 模型最详解/","noteIcon":"","created":"2024-06-22T22:30:30.047+08:00","updated":"2024-04-30T13:40:39.000+08:00"}
 ---
 
 ### **什么是 AARRR 模型？**

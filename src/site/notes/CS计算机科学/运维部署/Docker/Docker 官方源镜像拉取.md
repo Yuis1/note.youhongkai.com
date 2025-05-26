@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/CS计算机科学/运维部署/Docker/Docker 官方源镜像拉取/","noteIcon":"","created":"2025-01-31T11:08:23.456+08:00","updated":"2025-02-11T00:48:30.000+08:00"}
+{"dg-publish":true,"permalink":"/CS计算机科学/运维部署/Docker/Docker 官方源镜像拉取/","noteIcon":"","created":"2025-01-31T18:26:56.001+08:00","updated":"2025-04-29T11:14:22.982+08:00"}
 ---
 
 
@@ -46,9 +46,11 @@
 
 | OS and configuration | File location                              |
 | -------------------- | ------------------------------------------ |
-| Linux, regular setup | `/etc/docker/daemon.json`                  |
-| Linux, rootless mode | `~/.config/docker/daemon.json`             |
+| Linux, regular setup | /etc/docker/daemon.json                    |
+| Linux, rootless mode | /etc/docker/daemon.json                    |
 | Windows              | `C:\ProgramData\docker\config\daemon.json` |
+
+注意， /etc/docker/daemon.json 是docker读取配置的默认地址，和运行docker的用户无关。
 
 Mac下的 daemon.json，可以通过桌面端的  Settings - Docker Engine 来设置。
 
@@ -59,10 +61,15 @@ Mac下的 daemon.json，可以通过桌面端的  Settings - Docker Engine 来�
   "proxies": {
     "http-proxy": "http://proxy.example.com:3128",
     "https-proxy": "https://proxy.example.com:3129",
-    "no-proxy": "*.test.example.com,.example.org,127.0.0.0/8"
+    "no-proxy": "*.test.example.com,.example.org,localhost,127.0.0.0/8"
   }
 }
 ```
+
+注意：  
+
+- 如果对应客户端没有http代理，并提示错误 malformed HTTP request ，则 `"http-proxy": "http://proxy.example.com:3128", "https-proxy": "https://proxy.example.com:3129",`  换成 `"http-proxy": "sockt5://proxy.example.com:3128", "https-proxy": "sockt5://proxy.example.com:3129",`  。
+- "no-proxy": "localhost,127.0.0.0/8" 不要省略，否则会把本地请求也代理。
 
 Docker desktop 中也能设置：
 

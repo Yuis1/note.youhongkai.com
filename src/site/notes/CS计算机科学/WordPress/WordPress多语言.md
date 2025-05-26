@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/CS计算机科学/WordPress/WordPress多语言/","noteIcon":"","created":"2024-07-10T02:35:07.000+08:00","updated":"2024-10-31T19:29:30.000+08:00"}
+{"dg-publish":true,"permalink":"/CS计算机科学/WordPress/WordPress多语言/","noteIcon":"","created":"2024-07-10T01:23:17.411+08:00","updated":"2024-10-31T19:29:30.000+08:00"}
 ---
 
 ## 我的需求

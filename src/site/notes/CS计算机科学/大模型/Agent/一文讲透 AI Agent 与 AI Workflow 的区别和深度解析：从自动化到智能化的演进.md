@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/CS计算机科学/大模型/Agent/一文讲透 AI Agent 与 AI Workflow 的区别和深度解析：从自动化到智能化的演进/","noteIcon":"","created":"2025-01-13T20:39:49.000+08:00","updated":"2025-01-13T17:33:37.000+08:00"}
+{"dg-publish":true,"permalink":"/CS计算机科学/大模型/Agent/一文讲透 AI Agent 与 AI Workflow 的区别和深度解析：从自动化到智能化的演进/","noteIcon":"","created":"2025-01-29T13:56:29.948+08:00","updated":"2025-01-13T17:33:37.000+08:00"}
 ---
 
 > 本文由 [简悦 SimpRead](http://ksria.com/simpread/) 转码， 原文地址 [mp.weixin.qq.com](https://mp.weixin.qq.com/s?__biz=MzI2NzE2Mjg0OQ==&mid=2649248267&idx=1&sn=063515025ed3c7dcbf47218cc5c8cecc&scene=21#wechat_redirect)

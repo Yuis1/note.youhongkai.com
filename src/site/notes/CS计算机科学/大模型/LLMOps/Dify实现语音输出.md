@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/CS计算机科学/大模型/LLMOps/Dify实现语音输出/","noteIcon":"","created":"2025-01-26T13:13:12.000+08:00","updated":"2025-01-26T21:09:40.000+08:00"}
+{"dg-publish":true,"permalink":"/CS计算机科学/大模型/LLMOps/Dify实现语音输出/","noteIcon":"","created":"2025-01-29T13:58:01.425+08:00","updated":"2025-04-17T19:47:08.641+08:00"}
 ---
 
 
@@ -7,7 +7,7 @@
 
 ---
 
-Dify可以实现语音流，需要通过安装Xinferance配置ChatTTS模型
+Dify可以实现语音流，需要通过安装Xinference配置ChatTTS模型
 
 需要的配置：
 

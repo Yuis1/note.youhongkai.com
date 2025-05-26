@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/P生产力/PKM/how to take smart note 中文版 - Niklas Lumann/","noteIcon":"","created":"2022-03-16T02:24:35.000+08:00","updated":"2024-04-24T00:44:21.418+08:00"}
+{"dg-publish":true,"permalink":"/P生产力/PKM/how to take smart note 中文版 - Niklas Lumann/","noteIcon":"","created":"2024-06-22T22:30:23.495+08:00","updated":"2024-04-24T00:44:21.000+08:00"}
 ---
 
 

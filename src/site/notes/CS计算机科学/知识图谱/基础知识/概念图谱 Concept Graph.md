@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/CS计算机科学/知识图谱/基础知识/概念图谱 Concept Graph/","noteIcon":"","created":"2024-04-10T13:16:27.292+08:00","updated":"2024-05-18T16:57:04.688+08:00"}
+{"dg-publish":true,"permalink":"/CS计算机科学/知识图谱/基础知识/概念图谱 Concept Graph/","noteIcon":"","created":"2024-06-22T22:30:29.655+08:00","updated":"2024-05-18T16:57:04.000+08:00"}
 ---
 
 ## 定义

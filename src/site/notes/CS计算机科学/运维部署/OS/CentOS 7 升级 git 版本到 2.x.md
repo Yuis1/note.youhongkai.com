@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/CS计算机科学/运维部署/OS/CentOS 7 升级 git 版本到 2.x/","noteIcon":"","created":"2024-02-29T01:33:27.832+08:00","updated":"2024-04-27T01:21:44.000+08:00"}
+{"dg-publish":true,"permalink":"/CS计算机科学/运维部署/OS/CentOS 7 升级 git 版本到 2.x/","noteIcon":"","created":"2024-06-22T22:30:29.006+08:00","updated":"2024-04-27T01:21:44.000+08:00"}
 ---
 
 > 本文由 [简悦 SimpRead](http://ksria.com/simpread/) 转码， 原文地址 [juejin.cn](https://juejin.cn/post/7071910670056292389)

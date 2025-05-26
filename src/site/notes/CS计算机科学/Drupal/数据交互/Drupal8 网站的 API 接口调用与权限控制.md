@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/CS计算机科学/Drupal/数据交互/Drupal8 网站的 API 接口调用与权限控制/","noteIcon":"","created":"2024-03-24T16:57:04.000+08:00","updated":"2024-04-27T01:26:38.000+08:00"}
+{"dg-publish":true,"permalink":"/CS计算机科学/Drupal/数据交互/Drupal8 网站的 API 接口调用与权限控制/","noteIcon":"","created":"2024-06-22T22:30:28.603+08:00","updated":"2024-04-27T01:26:38.000+08:00"}
 ---
 
 > 本文由 [简悦 SimpRead](http://ksria.com/simpread/) 转码， 原文地址 [juejin.cn](https://juejin.cn/post/6844904190657953800)

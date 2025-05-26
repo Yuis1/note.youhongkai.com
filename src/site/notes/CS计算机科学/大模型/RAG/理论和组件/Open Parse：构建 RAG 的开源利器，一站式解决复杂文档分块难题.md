@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/CS计算机科学/大模型/RAG/理论和组件/Open Parse：构建 RAG 的开源利器，一站式解决复杂文档分块难题/","noteIcon":"","created":"2024-11-21T14:57:24.000+08:00","updated":"2025-01-08T23:57:17.086+08:00"}
+{"dg-publish":true,"permalink":"/CS计算机科学/大模型/RAG/理论和组件/Open Parse：构建 RAG 的开源利器，一站式解决复杂文档分块难题/","noteIcon":"","created":"2024-11-21T14:56:24.252+08:00","updated":"2025-01-08T23:57:17.000+08:00"}
 ---
 
 

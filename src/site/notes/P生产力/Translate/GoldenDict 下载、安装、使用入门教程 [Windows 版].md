@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/P生产力/Translate/GoldenDict 下载、安装、使用入门教程 [Windows 版]/","noteIcon":"","created":"2022-03-16T02:24:35.000+08:00","updated":"2024-04-24T00:46:38.937+08:00"}
+{"dg-publish":true,"permalink":"/P生产力/Translate/GoldenDict 下载、安装、使用入门教程 [Windows 版]/","noteIcon":"","created":"2024-06-22T22:30:23.335+08:00","updated":"2024-04-24T00:46:38.000+08:00"}
 ---
 
 > 本文由 [简悦 SimpRead](http://ksria.com/simpread/) 转码， 原文地址 [github.com](https://github.com/tmltmltml/GoldenDict_zh_manual/blob/master/%E7%BB%86%E8%8A%82%E6%95%99%E7%A8%8B/GoldenDict%20%E4%B8%8B%E8%BD%BD%E3%80%81%E5%AE%89%E8%A3%85%E3%80%81%E4%BD%BF%E7%94%A8%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B%5BWindows%20%E7%89%88%5D.md)

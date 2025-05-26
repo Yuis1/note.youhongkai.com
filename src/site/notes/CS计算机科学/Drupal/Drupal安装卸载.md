@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/CS计算机科学/Drupal/Drupal安装卸载/","noteIcon":"","created":"2024-03-04T00:14:47.629+08:00","updated":"2024-03-21T00:17:34.569+08:00"}
+{"dg-publish":true,"permalink":"/CS计算机科学/Drupal/Drupal安装卸载/","noteIcon":"","created":"2024-06-22T22:30:28.313+08:00","updated":"2024-03-21T00:17:34.000+08:00"}
 ---
 
 ## 参考

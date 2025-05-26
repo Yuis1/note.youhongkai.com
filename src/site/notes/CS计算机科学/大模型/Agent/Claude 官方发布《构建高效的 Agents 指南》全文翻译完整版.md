@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/CS计算机科学/大模型/Agent/Claude 官方发布《构建高效的 Agents 指南》全文翻译完整版/","noteIcon":"","created":"2025-01-13T20:39:49.000+08:00","updated":"2025-01-13T17:33:35.000+08:00"}
+{"dg-publish":true,"permalink":"/CS计算机科学/大模型/Agent/Claude 官方发布《构建高效的 Agents 指南》全文翻译完整版/","noteIcon":"","created":"2025-01-29T13:56:29.914+08:00","updated":"2025-01-13T17:33:35.000+08:00"}
 ---
 
 > 本文由 [简悦 SimpRead](http://ksria.com/simpread/) 转码， 原文地址 [mp.weixin.qq.com](https://mp.weixin.qq.com/s?__biz=MzI2NzE2Mjg0OQ==&mid=2649248377&idx=1&sn=cc561476a660b793865f99c72d878ff8&scene=21#wechat_redirect)

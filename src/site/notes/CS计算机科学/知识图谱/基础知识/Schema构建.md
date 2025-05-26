@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/CS计算机科学/知识图谱/基础知识/Schema构建/","noteIcon":"","created":"2024-04-18T11:53:10.000+08:00","updated":"2024-04-24T00:28:42.505+08:00"}
+{"dg-publish":true,"permalink":"/CS计算机科学/知识图谱/基础知识/Schema构建/","noteIcon":"","created":"2024-06-22T21:50:31.099+08:00","updated":"2024-04-24T00:28:42.000+08:00"}
 ---
 
 ## 流程

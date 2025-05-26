@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/CS计算机科学/机器学习/批标准化 Batch Normalization/","noteIcon":"","created":"2022-06-06T20:11:19.131+08:00","updated":"2024-04-27T01:22:12.000+08:00"}
+{"dg-publish":true,"permalink":"/CS计算机科学/机器学习/批标准化 Batch Normalization/","noteIcon":"","created":"2024-06-22T22:30:28.281+08:00","updated":"2024-04-27T01:22:12.000+08:00"}
 ---
 
 

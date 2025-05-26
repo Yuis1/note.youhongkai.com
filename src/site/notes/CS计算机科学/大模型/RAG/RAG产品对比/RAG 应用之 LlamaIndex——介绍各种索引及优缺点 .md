@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/CS计算机科学/大模型/RAG/RAG产品对比/RAG 应用之 LlamaIndex——介绍各种索引及优缺点 /","noteIcon":"","created":"2024-02-04T22:53:40.027+08:00","updated":"2025-01-06T17:48:45.000+08:00"}
+{"dg-publish":true,"permalink":"/CS计算机科学/大模型/RAG/RAG产品对比/RAG 应用之 LlamaIndex——介绍各种索引及优缺点 /","noteIcon":"","created":"2024-06-22T22:30:29.450+08:00","updated":"2025-01-06T17:48:45.000+08:00"}
 ---
 
 

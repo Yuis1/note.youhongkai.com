@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/CS计算机科学/运维部署/Network/http-proxy 和 https-proxy 的区别/","noteIcon":"","created":"2025-01-30T17:16:35.271+08:00","updated":"2025-01-30T22:24:26.318+08:00"}
+{"dg-publish":true,"permalink":"/CS计算机科学/运维部署/Network/http-proxy 和 https-proxy 的区别/","noteIcon":"","created":"2025-01-30T17:24:51.651+08:00","updated":"2025-01-30T22:24:26.000+08:00"}
 ---
 
 

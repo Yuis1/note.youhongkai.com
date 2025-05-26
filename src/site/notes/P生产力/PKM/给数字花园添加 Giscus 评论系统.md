@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/P生产力/PKM/给数字花园添加 Giscus 评论系统/","noteIcon":"","created":"2024-03-04T01:40:15.065+08:00","updated":"2024-04-27T01:21:35.000+08:00"}
+{"dg-publish":true,"permalink":"/P生产力/PKM/给数字花园添加 Giscus 评论系统/","noteIcon":"","created":"2024-06-22T22:30:23.550+08:00","updated":"2024-04-27T01:21:35.000+08:00"}
 ---
 
 > 本文由 [简悦 SimpRead](http://ksria.com/simpread/) 转码， 原文地址 [zhuanlan.zhihu.com](https://zhuanlan.zhihu.com/p/681343213)

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/CS计算机科学/大模型/RAG/RAG产品对比/Vector _ Graph：蚂蚁首个开源 Graph RAG 框架设计解读/","noteIcon":"","created":"2024-11-25T02:05:23.559+08:00","updated":"2025-01-08T23:56:10.170+08:00"}
+{"dg-publish":true,"permalink":"/CS计算机科学/大模型/RAG/RAG产品对比/Vector _ Graph：蚂蚁首个开源 Graph RAG 框架设计解读/","noteIcon":"","created":"2024-11-26T22:49:59.204+08:00","updated":"2025-01-08T23:56:10.000+08:00"}
 ---
 
 > 本文由 [简悦 SimpRead](http://ksria.com/simpread/) 转码， 原文地址 [www.cnblogs.com](https://www.cnblogs.com/fanzhidongyzby/p/18252630/graphrag)

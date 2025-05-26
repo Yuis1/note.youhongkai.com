@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/R资源/学术文献/怎么查找文献的 DOI 号？中英文献 DOI 查找方法图文详解/","noteIcon":"","created":"2024-02-07T22:59:43.094+08:00","updated":"2024-04-24T00:47:20.638+08:00"}
+{"dg-publish":true,"permalink":"/R资源/学术文献/怎么查找文献的 DOI 号？中英文献 DOI 查找方法图文详解/","noteIcon":"","created":"2024-06-22T22:30:23.760+08:00","updated":"2024-04-24T00:47:20.000+08:00"}
 ---
 
 > 本文由 [简悦 SimpRead](http://ksria.com/simpread/) 转码， 原文地址 [gfsoso.99lb.net](https://gfsoso.99lb.net/xiangguanwenti-208.html)

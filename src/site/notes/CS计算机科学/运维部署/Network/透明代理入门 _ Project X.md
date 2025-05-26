@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/CS计算机科学/运维部署/Network/透明代理入门 _ Project X/","noteIcon":"","created":"2024-02-01T11:54:28.899+08:00","updated":"2024-06-02T23:45:56.473+08:00"}
+{"dg-publish":true,"permalink":"/CS计算机科学/运维部署/Network/透明代理入门 _ Project X/","noteIcon":"","created":"2024-06-22T22:30:29.207+08:00","updated":"2024-06-02T23:45:56.000+08:00"}
 ---
 
 > 本文由 [简悦 SimpRead](http://ksria.com/simpread/) 转码， 原文地址 [xtls.github.io](https://xtls.github.io/document/level-2/transparent_proxy/transparent_proxy.html#%E9%80%8F%E6%98%8E%E4%BB%A3%E7%90%86%E9%9A%BE%E5%9C%A8%E5%93%AA%E9%87%8C)

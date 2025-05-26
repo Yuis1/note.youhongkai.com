@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/CS计算机科学/大模型/Train/GRPO 算法：班级内卷出的 “最强大脑”/","noteIcon":"","created":"2025-01-27T13:14:35.145+08:00","updated":"2025-01-29T16:16:03.223+08:00"}
+{"dg-publish":true,"permalink":"/CS计算机科学/大模型/Train/GRPO 算法：班级内卷出的 “最强大脑”/","noteIcon":"","created":"2025-01-29T13:58:01.361+08:00","updated":"2025-01-29T16:16:03.000+08:00"}
 ---
 
 > 本文由 [简悦 SimpRead](http://ksria.com/simpread/) 转码， 原文地址 [mp.weixin.qq.com](https://mp.weixin.qq.com/s?__biz=MzA3MDE2OTQ0OA==&mid=2651918255&idx=5&sn=163d52fdc257eec08ec2e50bc7c0131d&chksm=843d621347ecbc5b5c6a9b875aca7866b14f826432b05ad7caf0eae836a47176e6606d75f6ee#rd)

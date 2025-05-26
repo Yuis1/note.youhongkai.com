@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/CS计算机科学/Drupal/数据交互/Drupal8 中 jsonApi 的使用拓展/","noteIcon":"","created":"2024-03-24T16:57:03.990+08:00","updated":"2024-04-30T00:41:36.618+08:00"}
+{"dg-publish":true,"permalink":"/CS计算机科学/Drupal/数据交互/Drupal8 中 jsonApi 的使用拓展/","noteIcon":"","created":"2024-06-22T22:30:28.618+08:00","updated":"2024-04-30T00:41:36.000+08:00"}
 ---
 
 > 本文由 [简悦 SimpRead](http://ksria.com/simpread/) 转码， 原文地址 [juejin.cn](https://juejin.cn/post/6844904191266291720?from=search-suggest)

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/CS计算机科学/大模型/RAG/RAG产品对比/RAGFlow：基于 OCR 和文档解析的下一代 RAG 引擎/","noteIcon":"","created":"2024-11-25T02:05:23.553+08:00","updated":"2025-01-08T23:56:18.661+08:00"}
+{"dg-publish":true,"permalink":"/CS计算机科学/大模型/RAG/RAG产品对比/RAGFlow：基于 OCR 和文档解析的下一代 RAG 引擎/","noteIcon":"","created":"2024-11-26T22:49:59.279+08:00","updated":"2025-01-08T23:56:18.000+08:00"}
 ---
 
 > 本文由 [简悦 SimpRead](http://ksria.com/simpread/) 转码， 原文地址 [blog.csdn.net](https://blog.csdn.net/FrenzyTechAI/article/details/137548526)
