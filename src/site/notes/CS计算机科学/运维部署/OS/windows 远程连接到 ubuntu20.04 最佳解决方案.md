@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/CS计算机科学/运维部署/OS/windows 远程连接到 ubuntu20.04 最佳解决方案/","noteIcon":"","created":"2024-01-30T17:15:23.283+08:00","updated":"2024-04-27T01:21:44.000+08:00"}
+{"dg-publish":true,"permalink":"/CS计算机科学/运维部署/OS/windows 远程连接到 ubuntu20.04 最佳解决方案/","noteIcon":"","created":"2024-06-22T22:30:29.022+08:00","updated":"2024-04-27T01:21:44.000+08:00"}
 ---
 
 > 本文由 [简悦 SimpRead](http://ksria.com/simpread/) 转码， 原文地址 [www.cnblogs.com](https://www.cnblogs.com/jaycethanks/p/14988794.html)

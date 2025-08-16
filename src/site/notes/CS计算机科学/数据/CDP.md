@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/CS计算机科学/数据/CDP/","noteIcon":"","created":"2023-11-20T15:47:06.000+08:00","updated":"2024-04-24T00:16:58.940+08:00"}
+{"dg-publish":true,"permalink":"/CS计算机科学/数据/CDP/","noteIcon":"","created":"2024-06-22T22:30:29.896+08:00","updated":"2024-04-24T00:16:58.000+08:00"}
 ---
 
 ## 什么是CDP

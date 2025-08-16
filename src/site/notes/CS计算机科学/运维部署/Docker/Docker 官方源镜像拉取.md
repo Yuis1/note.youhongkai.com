@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/CS计算机科学/运维部署/Docker/Docker 官方源镜像拉取/","noteIcon":"","created":"2025-01-31T18:26:56.001+08:00","updated":"2025-04-29T11:14:22.982+08:00"}
+{"dg-publish":true,"permalink":"/CS计算机科学/运维部署/Docker/Docker 官方源镜像拉取/","noteIcon":"","created":"2025-01-31T18:26:56.001+08:00","updated":"2025-08-13T02:04:47.000+08:00"}
 ---
 
 
@@ -75,7 +75,7 @@ Docker desktop 中也能设置：
 
 ![](/img/user/Z-attach/Screenshot 2025-01-31 at 11.52.25.png)
 
-[http-proxy 和 https-proxy 的区别](../Network/http-proxy%20和%20https-proxy%20的区别.md)
+[http-proxy 和 https-proxy 的区别](../Network/Proxy/http-proxy%20和%20https-proxy%20的区别.md)
 
 ### Mac端疑难杂症
 

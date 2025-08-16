@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/CS计算机科学/知识图谱/LLM-KG/通过LLM辅助知识图谱构建/","noteIcon":"","created":"2024-03-27T17:10:37.209+08:00","updated":"2024-07-08T16:27:17.289+08:00"}
+{"dg-publish":true,"permalink":"/CS计算机科学/知识图谱/LLM-KG/通过LLM辅助知识图谱构建/","noteIcon":"","created":"2024-06-22T22:30:29.686+08:00","updated":"2024-07-08T16:27:17.000+08:00"}
 ---
 
 

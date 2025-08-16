@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/CS计算机科学/前端开发/Json 查询语法/","noteIcon":"","created":"2024-03-20T15:05:14.665+08:00","updated":"2024-03-21T09:31:38.406+08:00"}
+{"dg-publish":true,"permalink":"/CS计算机科学/前端开发/Json 查询语法/","noteIcon":"","created":"2024-06-22T22:30:30.063+08:00","updated":"2024-03-21T09:31:38.000+08:00"}
 ---
 
 ## JSONPath

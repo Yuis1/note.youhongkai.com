@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/P生产力/PKM/Obsidian手把手教你快速上手（附核心配置）/","noteIcon":"","created":"2023-11-20T15:47:55.000+08:00","updated":"2024-04-24T00:44:15.503+08:00"}
+{"dg-publish":true,"permalink":"/P生产力/PKM/Obsidian手把手教你快速上手（附核心配置）/","noteIcon":"","created":"2024-06-22T22:30:23.479+08:00","updated":"2024-04-24T00:44:15.000+08:00"}
 ---
 
 > 本文由 [简悦 SimpRead](http://ksria.com/simpread/) 转码， 原文地址 [www.jianshu.com](https://www.jianshu.com/p/2def06958af6)

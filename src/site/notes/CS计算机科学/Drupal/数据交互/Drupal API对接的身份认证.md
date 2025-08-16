@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/CS计算机科学/Drupal/数据交互/Drupal API对接的身份认证/","noteIcon":"","created":"2024-03-18T19:09:42.791+08:00","updated":"2024-04-24T00:02:23.031+08:00"}
+{"dg-publish":true,"permalink":"/CS计算机科学/Drupal/数据交互/Drupal API对接的身份认证/","noteIcon":"","created":"2024-06-22T22:30:28.585+08:00","updated":"2024-04-24T00:02:23.000+08:00"}
 ---
 
 

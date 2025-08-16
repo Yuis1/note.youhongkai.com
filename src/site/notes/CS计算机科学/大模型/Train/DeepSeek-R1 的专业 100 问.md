@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/CS计算机科学/大模型/Train/DeepSeek-R1 的专业 100 问/","noteIcon":"","created":"2025-01-27T13:14:35.111+08:00","updated":"2025-01-29T16:18:38.879+08:00"}
+{"dg-publish":true,"permalink":"/CS计算机科学/大模型/Train/DeepSeek-R1 的专业 100 问/","noteIcon":"","created":"2025-01-29T13:58:01.381+08:00","updated":"2025-01-29T16:18:38.000+08:00"}
 ---
 
 > 本文由 [简悦 SimpRead](http://ksria.com/simpread/) 转码， 原文地址 [mp.weixin.qq.com](https://mp.weixin.qq.com/s?__biz=MzA3MDE2OTQ0OA==&mid=2651918255&idx=3&sn=6b7af4c4553a06629fb34a9d1553d281&chksm=852549a8b252c0be716d25b463f24102c9cd5e759577ff78059fee13b8b25b2dc767cda508f1&cur_album_id=2921594804302790657&scene=189#wechat_redirect)

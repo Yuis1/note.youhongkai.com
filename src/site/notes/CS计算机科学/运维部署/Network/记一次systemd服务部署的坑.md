@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/CS计算机科学/运维部署/Network/记一次systemd服务部署的坑/","noteIcon":"","created":"2024-04-16T02:19:32.202+08:00","updated":"2024-04-24T00:32:04.414+08:00"}
+{"dg-publish":true,"permalink":"/CS计算机科学/运维部署/Network/记一次systemd服务部署的坑/","noteIcon":"","created":"2024-06-22T22:30:29.089+08:00","updated":"2024-04-24T00:32:04.000+08:00"}
 ---
 
 

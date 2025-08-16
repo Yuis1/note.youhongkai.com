@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/CS计算机科学/知识图谱/SPG/SPG 特性/","noteIcon":"","created":"2024-04-23T19:56:49.000+08:00","updated":"2024-04-24T00:27:44.374+08:00"}
+{"dg-publish":true,"permalink":"/CS计算机科学/知识图谱/SPG/SPG 特性/","noteIcon":"","created":"2024-06-22T21:50:38.178+08:00","updated":"2024-04-24T00:27:44.000+08:00"}
 ---
 
 

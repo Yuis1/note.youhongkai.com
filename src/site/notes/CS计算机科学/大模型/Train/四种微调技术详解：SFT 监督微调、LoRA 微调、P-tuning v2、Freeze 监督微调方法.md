@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/CS计算机科学/大模型/Train/四种微调技术详解：SFT 监督微调、LoRA 微调、P-tuning v2、Freeze 监督微调方法/","noteIcon":"","created":"2025-01-06T17:03:54.000+08:00","updated":"2025-01-27T13:15:45.285+08:00"}
+{"dg-publish":true,"permalink":"/CS计算机科学/大模型/Train/四种微调技术详解：SFT 监督微调、LoRA 微调、P-tuning v2、Freeze 监督微调方法/","noteIcon":"","created":"2025-01-29T13:58:01.299+08:00","updated":"2025-01-27T13:15:45.000+08:00"}
 ---
 
 > 本文由 [简悦 SimpRead](http://ksria.com/simpread/) 转码， 原文地址 [mp.weixin.qq.com](https://mp.weixin.qq.com/s?__biz=Mzg2NzEwMjI0Mw==&mid=2247499396&idx=1&sn=8fec0b23f10366386c991efc0b491709&chksm=cf800d6cf4709103a998b82625bb19fdd0d0222f871b95fe77059fc482f71d712cbf8bc37d06#rd)

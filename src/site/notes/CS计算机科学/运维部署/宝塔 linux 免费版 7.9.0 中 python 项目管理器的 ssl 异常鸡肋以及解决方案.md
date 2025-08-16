@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/CS计算机科学/运维部署/宝塔 linux 免费版 7.9.0 中 python 项目管理器的 ssl 异常鸡肋以及解决方案/","noteIcon":"","created":"2024-04-11T20:33:18.570+08:00","updated":"2024-04-27T01:21:43.000+08:00"}
+{"dg-publish":true,"permalink":"/CS计算机科学/运维部署/宝塔 linux 免费版 7.9.0 中 python 项目管理器的 ssl 异常鸡肋以及解决方案/","noteIcon":"","created":"2024-06-22T22:30:28.964+08:00","updated":"2024-04-27T01:21:43.000+08:00"}
 ---
 
 > 本文由 [简悦 SimpRead](http://ksria.com/simpread/) 转码， 原文地址 [www.20m8.com](http://www.20m8.com/161.html)
