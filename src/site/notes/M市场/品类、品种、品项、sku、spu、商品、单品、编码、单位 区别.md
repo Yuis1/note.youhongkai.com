@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/M市场/品类、品种、品项、sku、spu、商品、单品、编码、单位 区别/","noteIcon":"","created":"2024-06-22T22:30:27.957+08:00","updated":"2024-09-11T11:17:03.000+08:00"}
+{"dg-publish":true,"permalink":"/M市场/品类、品种、品项、sku、spu、商品、单品、编码、单位 区别/","noteIcon":"","created":"2025-07-31T11:06:08.696+08:00","updated":"2024-09-11T11:17:03.000+08:00"}
 ---
 
 > 本文由 [简悦 SimpRead](http://ksria.com/simpread/) 转码， 原文地址 [www.jianshu.com](https://www.jianshu.com/p/ad135278a0f3)

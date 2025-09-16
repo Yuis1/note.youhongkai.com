@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/CS计算机科学/运维部署/Network/Https/Dify中的certbot服务/","title":"Dify中的certbot服务","tags":["clippings"],"noteIcon":"","created":"2025-08-13T20:16:37.068+08:00","updated":"2025-08-16T16:05:11.682+08:00"}
+{"dg-publish":true,"permalink":"/CS计算机科学/运维部署/Network/Https/Dify中的certbot服务/","title":"Dify中的certbot服务","tags":["clippings"],"noteIcon":"","created":"2025-08-13T04:02:43.681+08:00","updated":"2025-08-16T16:05:11.000+08:00"}
 ---
 
 

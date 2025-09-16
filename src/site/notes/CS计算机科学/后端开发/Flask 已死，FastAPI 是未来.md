@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/CS计算机科学/后端开发/Flask 已死，FastAPI 是未来/","noteIcon":"","created":"2024-06-22T22:30:28.791+08:00","updated":"2024-04-27T01:22:45.000+08:00"}
+{"dg-publish":true,"permalink":"/CS计算机科学/后端开发/Flask 已死，FastAPI 是未来/","noteIcon":"","created":"2025-07-31T11:06:15.147+08:00","updated":"2024-04-27T01:22:45.000+08:00"}
 ---
 
 

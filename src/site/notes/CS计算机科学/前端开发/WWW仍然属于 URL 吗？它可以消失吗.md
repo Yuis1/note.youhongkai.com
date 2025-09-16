@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/CS计算机科学/前端开发/WWW仍然属于 URL 吗？它可以消失吗/","noteIcon":"","created":"2024-06-22T22:30:30.079+08:00","updated":"2024-03-20T15:07:16.000+08:00"}
+{"dg-publish":true,"permalink":"/CS计算机科学/前端开发/WWW仍然属于 URL 吗？它可以消失吗/","noteIcon":"","created":"2025-07-31T11:06:15.071+08:00","updated":"2024-03-20T15:07:16.000+08:00"}
 ---
 
 > 本文由 [简悦 SimpRead](http://ksria.com/simpread/) 转码， 原文地址 [developer.aliyun.com](https://developer.aliyun.com/article/1295331)

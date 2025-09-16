@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/CS计算机科学/其它开发/Cline 在Windows下无法连到MCP Server/","noteIcon":"","created":"2025-05-26T18:04:03.189+08:00","updated":"2025-05-26T18:19:10.948+08:00"}
+{"dg-publish":true,"permalink":"/CS计算机科学/其它开发/Cline 在Windows下无法连到MCP Server/","noteIcon":"","created":"2025-07-31T09:55:25.338+08:00","updated":"2025-05-26T18:19:10.000+08:00"}
 ---
 
 

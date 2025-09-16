@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/CS计算机科学/运维部署/OS/Linux增加虚拟内存Swapfile/","noteIcon":"","created":"2025-06-18T17:29:56.897+08:00","updated":"2025-06-18T17:33:48.742+08:00"}
+{"dg-publish":true,"permalink":"/CS计算机科学/运维部署/OS/Linux增加虚拟内存Swapfile/","noteIcon":"","created":"2025-07-31T09:55:12.372+08:00","updated":"2025-06-18T17:33:48.000+08:00"}
 ---
 
 ```

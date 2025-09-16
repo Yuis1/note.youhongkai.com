@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/CS计算机科学/大模型/RAG/RAG产品对比/RAG产品对比/","noteIcon":"","created":"2024-11-21T15:02:09.845+08:00","updated":"2025-01-10T19:31:21.000+08:00"}
+{"dg-publish":true,"permalink":"/CS计算机科学/大模型/RAG/RAG产品对比/RAG产品对比/","noteIcon":"","created":"2025-07-31T11:02:43.502+08:00","updated":"2025-01-10T19:31:21.000+08:00"}
 ---
 
 

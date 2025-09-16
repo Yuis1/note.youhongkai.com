@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/CS计算机科学/大模型/Train/详解大模型的 SFT 应该如何去做/","noteIcon":"","created":"2025-01-29T13:58:01.171+08:00","updated":"2025-01-27T13:15:04.000+08:00"}
+{"dg-publish":true,"permalink":"/CS计算机科学/大模型/Train/详解大模型的 SFT 应该如何去做/","noteIcon":"","created":"2025-07-31T10:00:46.896+08:00","updated":"2025-01-27T13:15:04.000+08:00"}
 ---
 
 

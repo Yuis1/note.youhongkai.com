@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/CS计算机科学/大模型/Agent/2024年终探索_ AI Agent 未来展望——历史演进、应用落地与商业价值的深度剖析/","noteIcon":"","created":"2025-01-29T13:57:54.036+08:00","updated":"2025-01-19T20:37:32.000+08:00"}
+{"dg-publish":true,"permalink":"/CS计算机科学/大模型/Agent/2024年终探索_ AI Agent 未来展望——历史演进、应用落地与商业价值的深度剖析/","noteIcon":"","created":"2025-07-31T10:00:47.545+08:00","updated":"2025-01-19T20:37:32.000+08:00"}
 ---
 
 > 本文由 [简悦 SimpRead](http://ksria.com/simpread/) 转码， 原文地址 [mp.weixin.qq.com](https://mp.weixin.qq.com/s?__biz=MzI2NzE2Mjg0OQ==&mid=2649248323&idx=1&sn=3c02f66477bca178e714287b506b6ebc&scene=21#wechat_redirect)

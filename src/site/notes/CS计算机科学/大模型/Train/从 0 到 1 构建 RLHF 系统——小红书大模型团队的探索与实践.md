@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/CS计算机科学/大模型/Train/从 0 到 1 构建 RLHF 系统——小红书大模型团队的探索与实践/","noteIcon":"","created":"2025-01-29T13:58:01.321+08:00","updated":"2025-01-27T13:16:17.000+08:00"}
+{"dg-publish":true,"permalink":"/CS计算机科学/大模型/Train/从 0 到 1 构建 RLHF 系统——小红书大模型团队的探索与实践/","noteIcon":"","created":"2025-07-31T10:00:46.930+08:00","updated":"2025-01-27T13:16:17.000+08:00"}
 ---
 
 > 本文由 [简悦 SimpRead](http://ksria.com/simpread/) 转码， 原文地址 [mp.weixin.qq.com](https://mp.weixin.qq.com/s?__biz=Mzg4OTc2MzczNg==&mid=2247491804&idx=1&sn=d1bf6f89b4c33dd89d2bf7db2e88ff2c&chksm=ce2b052b74f4ba55335885051f0d3e4098f6aa325eb40b5c4ce380a827829379df382ba50ff8#rd)

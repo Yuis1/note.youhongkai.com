@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/CS计算机科学/大模型/RAG/RAG产品对比/来自工业界的知识库 RAG 服务 (五)，模块化知识库 GoMate 实现方案详解/","noteIcon":"","created":"2025-01-29T13:56:28.444+08:00","updated":"2025-01-13T17:33:30.000+08:00"}
+{"dg-publish":true,"permalink":"/CS计算机科学/大模型/RAG/RAG产品对比/来自工业界的知识库 RAG 服务 (五)，模块化知识库 GoMate 实现方案详解/","noteIcon":"","created":"2025-07-31T10:00:47.577+08:00","updated":"2025-01-13T17:33:30.000+08:00"}
 ---
 
 > 本文由 [简悦 SimpRead](http://ksria.com/simpread/) 转码， 原文地址 [hustyichi.github.io](https://hustyichi.github.io/2024/06/24/module-rag/)

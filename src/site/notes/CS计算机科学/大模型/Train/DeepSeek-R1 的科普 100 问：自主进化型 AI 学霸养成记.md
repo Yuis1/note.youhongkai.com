@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/CS计算机科学/大模型/Train/DeepSeek-R1 的科普 100 问：自主进化型 AI 学霸养成记/","noteIcon":"","created":"2025-01-29T13:58:01.341+08:00","updated":"2025-01-27T13:16:35.000+08:00"}
+{"dg-publish":true,"permalink":"/CS计算机科学/大模型/Train/DeepSeek-R1 的科普 100 问：自主进化型 AI 学霸养成记/","noteIcon":"","created":"2025-07-31T10:00:11.120+08:00","updated":"2025-01-27T13:16:35.000+08:00"}
 ---
 
 > 本文由 [简悦 SimpRead](http://ksria.com/simpread/) 转码， 原文地址 [mp.weixin.qq.com](https://mp.weixin.qq.com/s?__biz=MzA3MDE2OTQ0OA==&mid=2651918255&idx=1&sn=b9b6b58d6aca107c8f28a01b1235a3aa&chksm=852549a8b252c0be1dd54c314623bc98275c1a6b2de20b33b416dddbad56273c4c35226635ef&cur_album_id=2921594804302790657&scene=189#wechat_redirect)

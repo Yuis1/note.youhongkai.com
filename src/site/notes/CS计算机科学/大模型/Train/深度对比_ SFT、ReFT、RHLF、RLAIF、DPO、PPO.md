@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/CS计算机科学/大模型/Train/深度对比_ SFT、ReFT、RHLF、RLAIF、DPO、PPO/","noteIcon":"","created":"2025-01-29T13:58:00.949+08:00","updated":"2025-01-27T13:14:49.000+08:00"}
+{"dg-publish":true,"permalink":"/CS计算机科学/大模型/Train/深度对比_ SFT、ReFT、RHLF、RLAIF、DPO、PPO/","noteIcon":"","created":"2025-07-31T10:00:46.896+08:00","updated":"2025-01-27T13:14:49.000+08:00"}
 ---
 
 > 本文由 [简悦 SimpRead](http://ksria.com/simpread/) 转码， 原文地址 [www.cnblogs.com](https://www.cnblogs.com/Microsoftdeveloper/articles/18635866)
