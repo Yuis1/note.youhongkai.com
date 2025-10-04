@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/CS计算机科学/大模型/Agent/如何构建有效的 AIAgents：化繁为简——深度解读 Claude 实践《Building effective agents》(上)/","noteIcon":"","created":"2025-01-29T13:56:29.974+08:00","updated":"2025-01-13T17:33:38.000+08:00"}
+{"dg-publish":true,"permalink":"/CS计算机科学/大模型/Agent/如何构建有效的 AIAgents：化繁为简——深度解读 Claude 实践《Building effective agents》(上)/","noteIcon":"","created":"2025-07-31T10:00:47.529+08:00","updated":"2025-01-13T17:33:38.000+08:00"}
 ---
 
 > 本文由 [简悦 SimpRead](http://ksria.com/simpread/) 转码， 原文地址 [mp.weixin.qq.com](https://mp.weixin.qq.com/s?__biz=MzI2NzE2Mjg0OQ==&mid=2649248344&idx=1&sn=e188ac9aa98e39ddc16b41a582c180cd&scene=21#wechat_redirect)
