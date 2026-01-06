@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/CS计算机科学/运维部署/Network/内网穿透/WireGuard组网/","noteIcon":"","created":"2026-01-06T18:27:37.222+08:00","updated":"2026-01-06T18:58:23.993+08:00"}
+{"dg-publish":true,"permalink":"/CS计算机科学/运维部署/Network/内网穿透/WireGuard组网/","noteIcon":"","created":"2026-01-06T18:27:37.222+08:00","updated":"2026-01-06T19:32:14.304+08:00"}
 ---
 
 
@@ -14,6 +14,7 @@
 
 ## WireGuard Mesh组网介绍
 ### 产品
+
 |**方案**|**大陆流畅度**|**部署难度**|**安全性**|**适用场景**|
 |---|---|---|---|---|
 |**Tailscale + 私有 DERP**|极高 (依赖国内服务器)|中等|极高 (2FA+端到端)|**最推荐**，最稳健，体验最好|
@@ -33,9 +34,13 @@
 
 ## 配置要点
 ### 与 v2ray 共存
+
 防止路由冲突导致连接中断：
+
 • 分流配置：在代理客户端（如 Clash/v2rayN）的路由配置中，将 Tailscale 网段（`100.64.0.0/10`）设为直连（Direct）。
+
 • DNS 优化：停用 Tailscale DNS功能，使用IP访问，避免 MagicDNS 与 Fake-IP 模式冲突。
+
 • UDP 放行：确保代理软件不拦截 41641 等 UDP 端口，以维持 P2P 直连。
 
 ### 让WSL也能用
@@ -43,7 +48,9 @@
 - 检查Windows防火墙，不要拦截WSL提供的服务端口
 
 ### WSL中快速启用代理且Mesh VPN网段不走V2ray
+
 将以下脚本存为  /usr/local/proxy
+
 ```
 #!/bin/bash
 # 自动检测 WSL 网络模式并获取主机 IP
@@ -102,5 +109,105 @@ fi
 ```
 
 执行  `chmod +x /usr/local/proxy`
+
 今后开启代理：`proxy on`
+
 关闭代理：`proxy off`
+
+### Tailscale 配置
+#### 查看连接状态
+`tailscale status`
+- **direct**：表示**直连**。后面通常会跟着对端的公网 IP 和端口（如 `1.2.3.4:41641`）。这是最理想的状态，速度最快，延迟最低。
+- **relay**：表示**转发**。后面会跟着一个 DERP 节点的简称（如 `relay "hkg"` 代表香港中转，`relay "tok"` 代表东京中转）。
+
+#### 测试详细延迟
+`tailscale ping`
+- 前几次通常显示 `via DERP`，因为 Tailscale 在后台正在尝试“打洞”。
+- 如果最后出现了 `via <公网IP>`，说明**打洞成功，已转为直连**，此时的 `15ms` 就是真实的 P2P 延迟。
+
+#### 诊断网络环境
+`tailscale netcheck`
+**UDP: true**：这是直连的基础。如果为 `false`，说明 UDP 被防火墙拦截，几乎肯定只能走中转。
+**MappingVariesByDestIP**：如果为 `true`，代表你是“对称型 NAT”（Hard NAT），打洞难度较大。
+
+
+
+#### **不要开启 "Exit Node"**
+Tailscale 默认只修改发往虚拟网段的路由，**不会**接管你的所有互联网流量。除非你明确想让开发机当你的加速器，否则不要在笔记本上选择开发机作为 Exit Node。这样，你访问开发机的 3000 端口走 Tailscale，访问其他网站依然走 v2ray。
+
+### 解决 DNS 污染冲突
+这是最容易出问题的地方。Tailscale 默认会开启 **MagicDNS**，它会接管系统的 DNS 解析以便你通过机器名（如 `http://my-dev-machine:3000`）访问。
+- **如果你使用 Clash/v2ray 的 Fake-IP 模式**：两者会抢夺 `/etc/resolv.conf` 或系统的 DNS 权限。
+- **解决方案**：
+    1. **推荐：** 在 Tailscale 控制台禁用 MagicDNS，直接通过 **Tailscale IP**（100.x.x.x）访问开发机。
+    2. 或者在 v2ray 的 DNS 配置中，将 Tailscale 的域名后缀（通常是 `*.ts.net`）设为使用系统原生 DNS 解析。
+
+### Tailscale 的 "Subnet Router"
+支持“节点中转局域网流量”，充当一个“桥梁”，让其它机器可以能访问本机所在局域网的所有设备（比如NAS、路由器管理界面）。
+**配置命令**： `tailscale up --advertise-routes=192.168.1.0/24`
+
+
+### 
+Tailscale 不支持普通客户端做为中转服务器，需要单独安装**DERPer** 。Tailscale 官方并不直接提供 DERP 的镜像，但社区有非常成熟且轻量的实现（如 `fredliang/derper`）。
+- **域名与 SSL**：DERP 必须工作在 HTTPS (443) 端口上（为了伪装流量并确保安全）。你需要一个指向该服务器 IP 的域名。
+- **防火墙开放端口**：
+    - **TCP 443**：HTTPS 流量。
+    - **UDP 3478**：STUN 协议（用于协助其他节点进行 NAT 穿透打洞）。
+
+为 DERP 分配一个二级域名（如 `derp.yourdomain.com`），让 Nginx 处理 SSL 证书，然后将流量转发给运行在非标准端口上的 DERP 容器。
+
+docker-compose.yml
+```yml
+services:
+  derper:
+    image: fredliang/derper
+    container_name: derper
+    restart: always
+    ports:
+      - "3478:3478/udp" # STUN 端口保持不变
+      - "127.0.0.1:8443:443" # 只监听本地回环，交给 Nginx 转发
+    environment:
+      - DERP_DOMAIN=derp.yourdomain.com
+      - DERP_CERT_MODE=manual # 改为手动模式，不让它自己申请证书
+      - DERP_ADDR=:443
+      - DERP_VERIFY_CLIENTS=false # 如果是个人用，可以设为 false
+```
+
+部署好容器后，Tailscale 并不会自动使用它。你需要在 [Tailscale Admin Console](https://login.tailscale.com/admin/acls) 的 **Access Control** 中添加 `derpMap` 配置：
+```
+"derpMap": {
+    "OmitDefaultRegions": false, // 是否禁用官方海外节点，建议先设为 false
+    "Regions": {
+        "901": {
+            "RegionID": 901,
+            "RegionCode": "my-derp",
+            "Nodes": [
+                {
+                    "Name": "1",
+                    "RegionID": 901,
+                    "HostName": "你的域名.com",
+                    "IPv4": "服务器公网IP",
+                    "DERPPort": 443,
+                    "STUNPort": 3478
+                }
+            ]
+        }
+    }
+}
+```
+
+验证：
+在其它机器运行 `tailscale netcheck`。如果输出中看到了 `my-derp` 且延迟极低，说明配置成功。
+
+
+## 其它Mesh组网方案
+### ZeroTier
+ZeroTier 的节点（Peers）具备一定的“中转意识”。
+- **Moon 节点**：虽然它也建议你自建 Moon（类似 DERP），但 ZeroTier 的协议允许节点之间进行更复杂的路径选择。
+- **逻辑**：ZeroTier 将整个网络视为一个巨大的虚拟交换机。如果 A 和 B 无法直连，它们会尝试通过它们都能连接到的“最近”节点进行跳转。
+- **缺点**：在特殊的网络环境下（UDP 大规模丢包），如果没有一个固定的物理服务器做 Moon，节点间的互相中转往往非常不稳定。
+
+### NetBird (支持自建中转且架构更现代)
+NetBird 同样基于 WireGuard，但它在“中转”这件事上比 Tailscale 更开放一点。
+- 它使用 **ICE/STUN/TURN** 协议（WebRTC 常用的那一套）。可以指定网络中的某台性能较好的 Linux 机器作为 **Relay 节点**。
+- **优点**：它的管理后台支持非常直观的路径查看。
