@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/CS计算机科学/运维部署/Network/Proxy/通过Nginx完成请求转发/","noteIcon":"","created":"2024-06-22T22:30:29.056+08:00","updated":"2024-04-24T00:31:17.000+08:00"}
+{"dg-publish":true,"permalink":"/CS计算机科学/运维部署/Network/Proxy/通过Nginx完成请求转发/","noteIcon":"","created":"2025-07-31T11:06:14.752+08:00","updated":"2024-04-24T00:31:17.000+08:00"}
 ---
 
 

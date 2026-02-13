@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/CS计算机科学/运维部署/Network/内网穿透/运营商不给公网 IP？IPv6 了解一下/","noteIcon":"","created":"2024-06-22T22:30:29.173+08:00","updated":"2025-04-28T02:14:26.055+08:00"}
+{"dg-publish":true,"permalink":"/CS计算机科学/运维部署/Network/内网穿透/运营商不给公网 IP？IPv6 了解一下/","noteIcon":"","created":"2025-07-31T11:06:14.784+08:00","updated":"2025-04-28T02:14:26.000+08:00"}
 ---
 
 > 本文由 [简悦 SimpRead](http://ksria.com/simpread/) 转码， 原文地址 [zhuanlan.zhihu.com](https://zhuanlan.zhihu.com/p/644711457)

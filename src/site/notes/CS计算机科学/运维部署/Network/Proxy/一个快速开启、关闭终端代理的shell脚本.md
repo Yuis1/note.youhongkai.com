@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/CS计算机科学/运维部署/Network/Proxy/一个快速开启、关闭终端代理的shell脚本/","noteIcon":"","created":"2024-06-22T21:34:44.690+08:00","updated":"2024-04-24T00:36:26.000+08:00"}
+{"dg-publish":true,"permalink":"/CS计算机科学/运维部署/Network/Proxy/一个快速开启、关闭终端代理的shell脚本/","noteIcon":"","created":"2025-07-31T11:04:02.331+08:00","updated":"2024-04-24T00:36:26.000+08:00"}
 ---
 
 
