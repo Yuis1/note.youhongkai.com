@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/CS计算机科学/后端开发/nodejs/多用户共享的前端工具链安装指南（NVM、Node、pnpm）/","noteIcon":"","created":"2026-01-12T12:51:07.442+08:00","updated":"2026-02-13T16:03:51.201+08:00"}
+{"dg-publish":true,"permalink":"/CS计算机科学/后端开发/nodejs/多用户共享的前端工具链安装指南（NVM、Node、pnpm）/","noteIcon":"","created":"2026-01-12T12:51:07.442+08:00","updated":"2026-02-16T04:14:31.899+08:00"}
 ---
 
 ## 背景知识
@@ -89,26 +89,12 @@ pnpm -v
 
 ## 4) 让 pnpm 使用共享 store（核心省空间点）
 
-写进 `~/.bashrc` 或 `~/.zshrc`：
-
+如果 store 在 `/opt`、而全局目录在 `$HOME/.local/...`，**跨设备**时有时会出链接类错误/性能问题（尤其容器、挂载盘、WSL 这类环境更容易）。如果你后面遇到奇怪的 link 报错，最省心的做法是把 store 放回 `$HOME` 同一盘。
 ```bash
-export PNPM_STORE_DIR="/opt/nodejs/pnpm-store"
+pnpm config set store-dir "$HOME/.local/share/pnpm/store" --global
 ```
 
-立即生效：
-
-```bash
-source ~/.bashrc   # 或 source ~/.zshrc
-```
-
-验证 store：
-
-```bash
-pnpm store path
-# 期望输出：/opt/nodejs/pnpm-store
-```
-
----
+坑：`.bashrc` 设置 `PNPM_STORE_DIR`  无效。因为不是 pnpm 官方会读取/生效的环境变量，维护者也明确表示没有类似 `PNPM_STORE_DIR` 这样的环境变量，推荐用 `pnpm config set store-dir ...` 来控制 store 位置。
 
 ## 5) 强烈建议：不要共享 pnpm 全局安装目录（避免 EPERM）
 
@@ -118,15 +104,12 @@ pnpm store path
 推荐做法：
 
 - **共享 store**（省空间）
-    
 - **全局 CLI 工具每用户安装到自己的 PNPM_HOME**（最稳）
-    
 
 安装全局工具示例：
 
 ```bash
 pnpm add -g @openai/codex @google/gemini-cli
-
 ```
 
 ---
@@ -158,7 +141,6 @@ command -v nvm && nvm --version
 node -v && npm -v
 pnpm -v
 pnpm store path
-ls -ld /opt/nodejs /opt/nodejs/pnpm-store
 ```
 
 
@@ -168,7 +150,7 @@ ls -ld /opt/nodejs /opt/nodejs/pnpm-store
 
 ### 解决方案
 1. WSL优化内存：  
-在Windows下，%UserProfile%\.wslconfig 
+在Windows下，%UserProfile%\.wslconfig
 ```
 [wsl2]
 swap=32GB

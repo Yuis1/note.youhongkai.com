@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/CS计算机科学/Drupal/Headless CMS/next-drupal/","noteIcon":"","created":"2024-07-02T21:52:28.677+08:00","updated":"2024-07-08T15:48:41.000+08:00"}
+{"dg-publish":true,"permalink":"/CS计算机科学/Drupal/Headless CMS/next-drupal/","noteIcon":"","created":"2025-07-31T11:03:12.721+08:00","updated":"2024-07-08T15:48:41.000+08:00"}
 ---
 
 

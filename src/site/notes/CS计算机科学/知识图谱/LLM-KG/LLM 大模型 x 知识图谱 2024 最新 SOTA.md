@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/CS计算机科学/知识图谱/LLM-KG/LLM 大模型 x 知识图谱 2024 最新 SOTA/","noteIcon":"","created":"2024-06-22T22:30:29.718+08:00","updated":"2024-07-08T16:27:17.000+08:00"}
+{"dg-publish":true,"permalink":"/CS计算机科学/知识图谱/LLM-KG/LLM 大模型 x 知识图谱 2024 最新 SOTA/","noteIcon":"","created":"2025-07-31T11:06:15.305+08:00","updated":"2024-07-08T16:27:17.000+08:00"}
 ---
 
 > 本文由 [简悦 SimpRead](http://ksria.com/simpread/) 转码， 原文地址 [mp.weixin.qq.com](https://mp.weixin.qq.com/s?src=11×tamp=1711530523&ver=5164&signature=ZLMO2q4Oa1geryD7PjFEfiArqo3HLl4RyZGRDFC3XpRB4MuWer8LzVU775*iKSsPuZFktLqG4mBjDkazEDRkVMX1PHVnZJtnStVlOc1JtBEpLIU5pjD-MgEGVc4rQImd&new=1)
